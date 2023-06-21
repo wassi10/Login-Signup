@@ -1,0 +1,141 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* admin page */
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container .content{
+    align-items: center;
+}
+
+.container .content h3{
+    font-size: 30px;
+    color: #333;
+}
+.container .content h3 span{
+    background: rebeccapurple;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.container .content h1{
+    font-size: 50px;
+    color: #333;
+}
+.container .content .btn{
+   
+    display: inline-block;
+    background: #333;
+    color: #ffffff;
+    padding: 10px 30px;
+    margin: 0 5px;
+    
+}
+
+/* sing up design */
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(12, 10, 10, 0.4);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+}
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+
+.form-container form select{
+    width: 100%;
+    padding-block: 3px;
+    font-size: 15px;
+    margin: 8px 0;
+    background: #eee; 
+    border-radius: 10px;   
+}
+
+.form-container form select option{
+   
+    background: #fff; 
+}
+
+
+.form-container form .form-btn{
+    margin-top: 10px;
+    width: 100%;
+    background: #9fe2a9; 
+    color: #242323; 
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;        
+}
+.form-container form .form-btn:hover{
+    background: #006A4E; 
+    color: #ffffff;           
+}
+.form-container form p{
+   margin-top: 10px;
+   font-size: 16px;
+   color: #333; 
+        
+}
+.form-container form p a{
+    font-weight: 600;  
+    color: #006A4E;        
+ }
+
+ /* error massage */
+ .form-container form .error-msg{
+    margin: 10px 0;
+    padding: 5px;
+    display: block;
+    background: #9fe2a9; 
+    color: #4b4545;
+    border-radius: 5px;
+    font-size: 16px;        
+ }
+
+ .input-field{
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+    margin: 8px 0;
+    background: #eee; 
+    border-radius: 10px;  
+ }
+
+ input{
+    background: none;
+    padding: 10px 18px;
+    font-size: 15px;
+ }
